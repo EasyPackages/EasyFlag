@@ -5,7 +5,7 @@ import EasyFlag
 public final class PlistFileFeatureFlag: FeatureFlag {
     private var featureFlags: [String: Bool]?
     
-    init(bundle: Bundle = .main, decoder: PropertyListDecoder = PropertyListDecoder()) {
+    public init(bundle: Bundle = .main, decoder: PropertyListDecoder = PropertyListDecoder()) {
         let featureFlagFileName = "FeatureFlag"
         let featureFlagFileExtension = "plist"
         let featureFlagFileUrl = bundle.url(
