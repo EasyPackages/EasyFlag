@@ -1,0 +1,24 @@
+{
+  "originHash" : "8b72de60f04e60dd5594ee7212e2a9c52586ea595e909db44243f90bf63463e8",
+  "pins" : [
+    {
+      "identity" : "easymock",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EasyPackages/EasyMock.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4a26d5a220414099371b53b155c11da95a1e5966"
+      }
+    },
+    {
+      "identity" : "easytesting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EasyPackages/EasyTesting.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4e7c53346ea6191a5a308fb13b1f5b849d6c5d4c"
+      }
+    }
+  ],
+  "version" : 3
+}
